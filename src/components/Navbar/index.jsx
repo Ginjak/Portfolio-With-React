@@ -23,35 +23,24 @@ function Navbar({ onPageChange }) {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/" className="nav-link">
+                  Home
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#"
-                  onClick={() => onPageChange("about")}
-                >
+                <NavLink to="/about" className="nav-link">
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#"
-                  onClick={() => onPageChange("portfolio")}
-                >
+                <NavLink to="/portfolio" className="nav-link">
                   Portfolio
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                {/* <a
-                  className="nav-link"
-                  href="#"
-                  onClick={() => onPageChange("contact")}
-                >
+                <NavLink to="/contact" className="nav-link">
                   Contact
-                </a> */}
-                <NavLink to="/portfolio">Portfolio</NavLink>
+                </NavLink>
               </li>
             </ul>
           </div>

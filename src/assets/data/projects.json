@@ -5,7 +5,8 @@
     "languages": ["HTML", "CSS", "JavaScript"],
     "github": "ginjak",
     "link": "https://google.co.uk",
-    "description": "short description of project"
+    "description": "short description of project",
+    "image": "/src/assets/img/barnsley.webp"
   },
   {
     "id": 2,
@@ -13,6 +14,7 @@
     "languages": ["HTML", "CSS", "JavaScript", "jQuery"],
     "github": "ginjak",
     "link": "https://facebook.com",
-    "description": "longer description of this project"
+    "description": "longer description of this project",
+    "image": "/src/assets/img/barnsley.webp"
   }
 ]

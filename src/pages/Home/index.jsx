@@ -5,7 +5,6 @@ function Home() {
   return (
     <>
       <Header>
-        <p>Testingggg</p>
         <Hero
           backgroundUrl="/src/assets/img/barnsley.webp"
           title="Title"

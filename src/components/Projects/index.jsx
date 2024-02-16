@@ -10,13 +10,36 @@ function Projects() {
   return (
     <>
       <h1>Portfolio page</h1>
-      {projects.map((project) => {
-        return (
-          <div key={project.id}>
-            <h1>{project.title}</h1>
-          </div>
-        );
-      })}
+      <div className="container-xxl">
+        <div className="row row-cols-1 row-cols-md-2 g-4">
+          {projects.map((project) => {
+            return (
+              <div className="col" key={project.id}>
+                <div className="card">
+                  <img
+                    src={project.image}
+                    className="card-img-top"
+                    alt="card-image"
+                  ></img>
+                  <div className="card-img-overlay">
+                    <h5 className="card-title">{project.title}</h5>
+                    <div className="info-wraper">
+                      <div className="languages">
+                        {project.languages.map((value, index) => (
+                          <div key={index} className="button">
+                            {value}
+                          </div>
+                        ))}
+                      </div>
+                      <div className="links"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </>
   );
 }
