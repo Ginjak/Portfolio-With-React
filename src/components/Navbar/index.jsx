@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar({ onPageChange }) {
   return (
@@ -23,14 +23,7 @@ function Navbar({ onPageChange }) {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#"
-                  onClick={() => onPageChange("home")}
-                >
-                  Home
-                </a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li className="nav-item">
                 <a
@@ -51,13 +44,14 @@ function Navbar({ onPageChange }) {
                 </a>
               </li>
               <li className="nav-item">
-                <a
+                {/* <a
                   className="nav-link"
                   href="#"
                   onClick={() => onPageChange("contact")}
                 >
                   Contact
-                </a>
+                </a> */}
+                <NavLink to="/portfolio">Portfolio</NavLink>
               </li>
             </ul>
           </div>

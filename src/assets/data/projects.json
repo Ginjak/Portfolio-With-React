@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "one",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "github": "ginjak",
+    "link": "https://google.co.uk",
+    "description": "short description of project"
+  },
+  {
+    "id": 2,
+    "title": "two",
+    "languages": ["HTML", "CSS", "JavaScript", "jQuery"],
+    "github": "ginjak",
+    "link": "https://facebook.com",
+    "description": "longer description of this project"
+  }
+]
