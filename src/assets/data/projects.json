@@ -3,7 +3,7 @@
     "id": 1,
     "title": "one",
     "languages": ["HTML", "CSS", "JavaScript"],
-    "github": "ginjak",
+    "github": "Portfolio-With-React",
     "link": "https://google.co.uk",
     "description": "short description of project",
     "image": "/src/assets/img/barnsley.webp"
