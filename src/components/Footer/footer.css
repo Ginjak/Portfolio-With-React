@@ -1,0 +1,16 @@
+.footer {
+  background-color: #242525;
+}
+
+.footer i {
+  color: #fff;
+  font-size: 26px;
+  margin-right: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer i:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  color: #d7d7d7;
+}

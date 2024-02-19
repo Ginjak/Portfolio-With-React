@@ -1,13 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./navbar.css";
 
 function Navbar({ onPageChange }) {
   return (
     <>
-      <nav className="navbar fixed-top navbar-light bg-transparent navbar-expand-lg">
+      <nav className="navbar fixed-top navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            <img
+              className="brand-img"
+              src="./src/assets/img/Logo_white_blue.svg"
+            ></img>
           </a>
           <button
             className="navbar-toggler"
