@@ -12,6 +12,10 @@ function Navbar({ onPageChange }) {
               className="brand-img"
               src="./src/assets/img/Logo_white_blue.svg"
             ></img>
+            <img
+              className="ms-3 hero-avatar d-md-none"
+              src="./src/assets/img/avatar.webp"
+            ></img>
           </a>
           <button
             className="navbar-toggler"

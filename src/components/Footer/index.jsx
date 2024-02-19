@@ -14,7 +14,7 @@ const Footer = () => {
           >
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="mailto:development.gjwebdev.co.uk">
+          <a href="mailto:development@gjwebdev.co.uk">
             <i className="fa-solid fa-envelope"></i>
           </a>
           <a

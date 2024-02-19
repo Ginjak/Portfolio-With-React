@@ -4,8 +4,21 @@
   box-sizing: border-box;
 }
 
-.hero {
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
+.custom-btn {
+  padding: 12px 24px;
+  background: #c65607;
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-btn:hover {
+  background: #e46409;
+  transition: all 0.2s ease-in-out;
+}
+a.custom-btn {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
 }

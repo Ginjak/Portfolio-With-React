@@ -7,11 +7,11 @@ function Home() {
     <>
       <Header>
         <Hero
-          backgroundUrl="/src/assets/img/barnsley.webp"
-          title="Title"
-          subtitle="Subtitle"
-          btnText="Button"
-          btnUrl="https://google.co.uk"
+          backgroundUrl="./src/assets/img/hero_background.jpg"
+          title="Hey there! I'm Gintaras Jakimavicius"
+          subtitle="Your expert front-end magician, shaping stunning web experiences."
+          btnText="Let's connect"
+          btnUrl="mailto:development@gjwebdev.co.uk"
         />
       </Header>
       <Footer />

@@ -3,6 +3,11 @@
 }
 .navbar ul a {
   color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.navbar ul a:hover {
+  color: #d7d7d7;
+  transition: all 0.2s ease-in-out;
 }
 
 .brand-img {
@@ -18,6 +23,12 @@ a.nav-link.active {
 }
 .navbar-toggler:focus {
   box-shadow: none !important;
+}
+
+.hero-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
 }
 
 @media (max-width: 992px) {
