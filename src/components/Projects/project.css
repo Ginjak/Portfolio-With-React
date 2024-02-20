@@ -6,3 +6,33 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
 }
+
+.project a.card-link {
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.project a.card-link:hover {
+  transition: all 0.2s ease-in-out;
+  color: #d7d7d7;
+}
+
+.project .button-lang {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 6px 16px;
+}
+
+@media (max-width: 576px) {
+  .project .button-lang {
+    font-size: 8px;
+    padding: 4px 8px;
+  }
+  .project .card-title {
+    font-size: 14px;
+  }
+}

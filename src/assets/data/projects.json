@@ -16,5 +16,23 @@
     "link": "https://facebook.com",
     "description": "longer description of this project",
     "image": "/src/assets/img/barnsley.webp"
+  },
+  {
+    "id": 3,
+    "title": "two",
+    "languages": ["HTML", "CSS", "JavaScript", "jQuery"],
+    "github": "ginjak",
+    "link": "https://facebook.com",
+    "description": "longer description of this project",
+    "image": "/src/assets/img/barnsley.webp"
+  },
+  {
+    "id": 4,
+    "title": "two",
+    "languages": ["HTML", "CSS", "JavaScript", "jQuery"],
+    "github": "ginjak",
+    "link": "https://facebook.com",
+    "description": "longer description of this project",
+    "image": "/src/assets/img/barnsley.webp"
   }
 ]
