@@ -11,7 +11,7 @@ function Navbar({ onPageChange }) {
             <img className="brand-img" src="/images/Logo_white_blue.svg"></img>
             <img
               className="ms-3 hero-avatar d-md-none"
-              src="./src/assets/img/avatar.webp"
+              src="/images/avatar.webp"
             ></img>
           </div>
           <button

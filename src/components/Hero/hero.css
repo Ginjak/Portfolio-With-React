@@ -17,7 +17,7 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-image: url("./src/assets/img/avatar.webp");
+  background-image: url("/images/avatar.webp");
   background-position: center top;
   background-size: 250px;
   box-shadow: 0 0 10px #fff;
