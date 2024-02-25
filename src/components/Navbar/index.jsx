@@ -8,10 +8,7 @@ function Navbar({ onPageChange }) {
       <nav className="navbar fixed-top navbar-expand-lg">
         <div className="container-fluid">
           <div className="navbar-brand">
-            <img
-              className="brand-img"
-              src="./src/assets/img/Logo_white_blue.svg"
-            ></img>
+            <img className="brand-img" src="/images/Logo_white_blue.svg"></img>
             <img
               className="ms-3 hero-avatar d-md-none"
               src="./src/assets/img/avatar.webp"
