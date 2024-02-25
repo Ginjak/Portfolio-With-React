@@ -10,7 +10,7 @@ function Navbar({ onPageChange }) {
           <div className="navbar-brand">
             <img
               className="brand-img"
-              src="./src/assets/img/Logo_white_blue.svg"
+              src="../../src/assets/img/Logo_white_blue.svg"
             ></img>
             <img
               className="ms-3 hero-avatar d-md-none"
