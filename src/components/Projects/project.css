@@ -1,5 +1,5 @@
 .projects-wraper {
-  background-image: url("./src/assets/img/portfolio_background.jpg");
+  background-image: url("/images/portfolio_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }

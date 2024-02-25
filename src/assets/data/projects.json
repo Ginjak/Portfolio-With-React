@@ -6,7 +6,7 @@
     "github": "Portfolio-With-React",
     "link": "https://google.co.uk",
     "description": "short description of project",
-    "image": "/src/assets/img/barnsley.webp"
+    "image": "/images/barnsley.webp"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "github": "ginjak",
     "link": "https://facebook.com",
     "description": "longer description of this project",
-    "image": "/src/assets/img/barnsley.webp"
+    "image": "/images/barnsley.webp"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "github": "ginjak",
     "link": "https://facebook.com",
     "description": "longer description of this project",
-    "image": "/src/assets/img/barnsley.webp"
+    "image": "/images/barnsley.webp"
   },
   {
     "id": 4,
@@ -33,6 +33,6 @@
     "github": "ginjak",
     "link": "https://facebook.com",
     "description": "longer description of this project",
-    "image": "/src/assets/img/barnsley.webp"
+    "image": "/images/barnsley.webp"
   }
 ]

@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Hero
-        backgroundUrl="./src/assets/img/hero_background.jpg"
+        backgroundUrl="/images/hero_background.jpg"
         title="Hey there! I'm Gintaras Jakimavicius"
         subtitle="Your expert front-end magician, shaping stunning web experiences."
         btnText="Let's connect"
