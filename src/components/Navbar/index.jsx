@@ -7,7 +7,7 @@ function Navbar({ onPageChange }) {
     <>
       <nav className="navbar fixed-top navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <div className="navbar-brand">
             <img
               className="brand-img"
               src="./src/assets/img/Logo_white_blue.svg"
@@ -16,7 +16,7 @@ function Navbar({ onPageChange }) {
               className="ms-3 hero-avatar d-md-none"
               src="./src/assets/img/avatar.webp"
             ></img>
-          </a>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -35,11 +35,7 @@ function Navbar({ onPageChange }) {
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink to="/about" className="nav-link">
-                  About
-                </NavLink>
-              </li>
+
               <li className="nav-item">
                 <NavLink to="/portfolio" className="nav-link">
                   Portfolio

@@ -1,0 +1,18 @@
+.contact-section {
+  position: relative;
+  background-image: url("./src/assets/img/contact_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.contact-section:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.contact-wraper {
+  margin-top: 76px !important;
+  min-height: calc(100vh - 136px) !important;
+}

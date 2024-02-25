@@ -1,5 +1,6 @@
 .hero {
-  height: calc(100vh - 60px);
+  margin-top: 76px;
+  height: calc(100vh - 136px);
   background-repeat: no-repeat;
   background-size: cover;
 }

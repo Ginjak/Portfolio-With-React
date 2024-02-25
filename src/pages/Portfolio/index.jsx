@@ -5,9 +5,8 @@ import Footer from "../../components/Footer";
 const Portfolio = () => {
   return (
     <>
-      <Header>
-        <Projects />
-      </Header>
+      <Projects />
+
       <Footer />
     </>
   );

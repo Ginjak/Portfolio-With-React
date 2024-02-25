@@ -1,0 +1,26 @@
+.contact-details h5 {
+  color: rgb(160, 160, 160) !important;
+}
+
+.contact-details p {
+  color: #f0f0f0;
+  font-weight: 500;
+}
+.contact-details i {
+  color: #f0f0f0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.social-media-wraper i,
+i.download-cv {
+  font-size: 20px;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-wraper i:hover,
+i.download-cv:hover {
+  transition: all 0.2s ease-in-out;
+  color: #c65607;
+}
