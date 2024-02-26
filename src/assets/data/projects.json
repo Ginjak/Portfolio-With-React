@@ -1,12 +1,11 @@
 [
   {
     "id": 1,
-    "title": "one",
+    "title": "John Doe - Photographer website",
     "languages": ["HTML", "CSS", "JavaScript"],
-    "github": "Portfolio-With-React",
-    "link": "https://google.co.uk",
-    "description": "short description of project",
-    "image": "/images/barnsley.webp"
+    "github": "Portfolio_course_website",
+    "link": "https://objective-wright-f89c90.netlify.app/",
+    "image": "/images/john_doe_portfolio.png"
   },
   {
     "id": 2,
