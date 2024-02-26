@@ -17,6 +17,14 @@
   },
   {
     "id": 3,
+    "title": "Movies App",
+    "languages": ["HTML", "CSS", "JavaScript", "Bootstrap", "API", "jQuery"],
+    "github": "Movies-App",
+    "link": "https://ginjak.github.io/Movies-App/",
+    "image": "/images/movies_app.png"
+  },
+  {
+    "id": 4,
     "title": "Weather Dashboard",
     "languages": ["HTML", "CSS", "JavaScript", "Bootstrap", "API", "jQuery"],
     "github": "Weather-Dashboard",
@@ -24,7 +32,7 @@
     "image": "/images/weather_dashboard.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Quiz Challenge",
     "languages": ["HTML", "CSS", "JavaScript"],
     "github": "Quiz",
@@ -32,12 +40,11 @@
     "image": "/images/quiz.png"
   },
   {
-    "id": 5,
-    "title": "Quiz Challenge",
-    "languages": ["HTML", "CSS", "JavaScript"],
-    "github": "Quiz",
-    "link": "https://facebook.com",
-    "description": "longer description of this project",
-    "image": "/images/barnsley.webp"
+    "id": 6,
+    "title": "React Portfolio",
+    "languages": ["HTML", "CSS", "React"],
+    "github": "Portfolio-With-React",
+    "link": "https://stunning-lamington-69567c.netlify.app/",
+    "image": "/images/react_portfolio.png"
   }
 ]

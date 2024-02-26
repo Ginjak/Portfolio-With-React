@@ -23,6 +23,9 @@ a.custom-btn {
   font-weight: 500;
 }
 
+.project .card:before {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
 /* Portfolio page */
 .portfolio-title {
   margin-top: 76px;
