@@ -17,12 +17,11 @@
   },
   {
     "id": 3,
-    "title": "two",
-    "languages": ["HTML", "CSS", "JavaScript", "jQuery"],
-    "github": "ginjak",
-    "link": "https://facebook.com",
-    "description": "longer description of this project",
-    "image": "/images/barnsley.webp"
+    "title": "Weather Dashboard",
+    "languages": ["HTML", "CSS", "JavaScript", "Bootstrap", "API"],
+    "github": "Weather-Dashboard",
+    "link": "https://ginjak.github.io/Weather-Dashboard/",
+    "image": "/images/weather_dashboard.png"
   },
   {
     "id": 4,
