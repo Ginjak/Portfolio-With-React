@@ -5,15 +5,17 @@
     "languages": ["HTML", "JavaScript", "SASS"],
     "github": "Portfolio_course_website",
     "link": "https://objective-wright-f89c90.netlify.app/",
-    "image": "/images/john_doe_portfolio.png"
+    "image": "/images/john_doe_portfolio.png",
+    "description": "This portfolio website serves as an online showcase of John Doe's work in graphic design, UI/UX design, and photography. The website is built using HTML, CSS, and JavaScript."
   },
   {
     "id": 2,
-    "title": "Notes - UI/UX replica",
+    "title": "Notes UI/UX replica",
     "languages": ["HTML", "SASS"],
     "github": "Notes",
     "link": "https://heuristic-haibt-95a769.netlify.app/",
-    "image": "/images/notes.png"
+    "image": "/images/notes.png",
+    "description": "This is a website for a fictional restaurant named \"Delicious Bites,\" designed to showcase the restaurant's menu, locations, and contact information."
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "languages": ["HTML", "CSS", "JavaScript", "Bootstrap", "API", "jQuery"],
     "github": "Movies-App",
     "link": "https://ginjak.github.io/Movies-App/",
-    "image": "/images/movies_app.png"
+    "image": "/images/movies_app.png",
+    "description": "This is a movie application built with HTML, CSS, JavaScript, and Bootstrap. It fetches movie details from multiple server-side APIs, displays related YouTube videos, and shows movie reviews. Users can also add movies to a favorites list, which is stored in local storage."
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "languages": ["HTML", "CSS", "JavaScript", "Bootstrap", "API", "jQuery"],
     "github": "Weather-Dashboard",
     "link": "https://ginjak.github.io/Weather-Dashboard/",
-    "image": "/images/weather_dashboard.png"
+    "image": "/images/weather_dashboard.png",
+    "description": "The Weather Dashboard is a web application that provides users with up-to-date weather information for a specified city. Leveraging the OpenWeatherMap API, the dashboard displays the current weather conditions and a 5-day forecast. Users can easily search for a city, view its weather details, and access a history of their previous searches."
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "languages": ["HTML", "CSS", "JavaScript"],
     "github": "Quiz",
     "link": "https://ginjak.github.io/Quiz/",
-    "image": "/images/quiz.png"
+    "image": "/images/quiz.png",
+    "description": "This repository comprises HTML, CSS, and JavaScript files, offering users the option to choose from four available quizzes. The results are tracked and stored in local storage. Subsequently, the results can be viewed on the \"Highscores\" page, and users have the option to clear them if desired."
   },
   {
     "id": 6,
@@ -45,6 +50,7 @@
     "languages": ["HTML", "CSS", "React", "Bootstrap"],
     "github": "Portfolio-With-React",
     "link": "https://stunning-lamington-69567c.netlify.app/",
-    "image": "/images/react_portfolio.png"
+    "image": "/images/react_portfolio.png",
+    "description": "The React Portfolio Project is a web application built using React, Bootstrap, and React Router. It allows users to showcase their portfolio with dynamically generated project cards. The application consists of components such as Header, Hero, Projects, Contact Form, Navbar, and Footer, providing a seamless browsing experience."
   }
 ]

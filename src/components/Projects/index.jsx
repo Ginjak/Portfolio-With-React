@@ -1,12 +1,72 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import portfolioData from "../../assets/data/projects.json";
 import "./project.css";
+
 function Projects() {
   const [projects, setProjects] = useState([]);
+  const [selectedProject, setSelectedProject] = useState(null);
+
   useEffect(() => {
     setProjects(portfolioData);
   }, []);
+
+  const handleProjectClick = (project) => {
+    setSelectedProject(project);
+    // Change the URL to /portfolio/project-name when a project is clicked
+    const projectSlug = project.title
+      .toLowerCase()
+      .replace(/[^\w\s]/gi, "")
+      .replace(/\s+/g, "-");
+    window.history.pushState(null, null, `/portfolio/${projectSlug}`);
+  };
+
+  const handleReturnClick = () => {
+    setSelectedProject(null);
+    // Change the URL back to /portfolio when returning to the main portfolio view
+    window.history.pushState(null, null, "/portfolio");
+  };
+
+  if (selectedProject) {
+    return (
+      <>
+        <div className="project-details projects-wraper  d-flex justify-content-center align-items-center">
+          <div className="card single-project my-3">
+            <div className="row g-0">
+              <img
+                src={selectedProject.image}
+                className="img-fluid"
+                alt="card-image"
+              ></img>
+              <div className="card-body pb-4">
+                <h5 className="card-title  text-white ">
+                  {selectedProject.title}
+                </h5>
+                <div className="text-white d-flex my-3 flex-wrap">
+                  {selectedProject.languages.map((value, index) => (
+                    <div key={index} className="button-lang me-2 mt-1">
+                      {value}
+                    </div>
+                  ))}
+                </div>
+                <div className="text-white mb-5">
+                  Short description: <p>{selectedProject.description}</p>
+                </div>
+
+                <Link
+                  to="/portfolio"
+                  className="custom-btn"
+                  onClick={handleReturnClick}
+                >
+                  Return to Portfolio
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  }
 
   return (
     <>
@@ -54,6 +114,12 @@ function Projects() {
                             <i className="fa-solid fa-globe"></i>
                           </a>
                         </div>
+                        <button
+                          className="custom-btn mt-3"
+                          onClick={() => handleProjectClick(project)}
+                        >
+                          View Details
+                        </button>
                       </div>
                     </div>
                   </div>

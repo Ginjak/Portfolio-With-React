@@ -30,7 +30,7 @@
   color: #d7d7d7;
 }
 
-.project .button-lang {
+.button-lang {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 500;
@@ -39,8 +39,31 @@
   padding: 6px 16px;
 }
 
+.project .custom-btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 6px 16px;
+  border: none;
+  font-size: 12px;
+}
+
+/* Single project */
+.project-details {
+  margin-top: 76px;
+  min-height: calc(100vh - 136px);
+}
+.project-details .card {
+  border: none;
+  border-radius: 0px;
+  background: #242525;
+  height: 100%;
+}
+.single-project {
+  max-width: 540px;
+}
 @media (max-width: 576px) {
-  .project .button-lang {
+  .button-lang {
     font-size: 8px;
     padding: 4px 8px;
   }
