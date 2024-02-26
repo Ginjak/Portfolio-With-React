@@ -2,19 +2,18 @@
   {
     "id": 1,
     "title": "John Doe - Photographer website",
-    "languages": ["HTML", "CSS", "JavaScript"],
+    "languages": ["HTML", "JavaScript", "SASS"],
     "github": "Portfolio_course_website",
     "link": "https://objective-wright-f89c90.netlify.app/",
     "image": "/images/john_doe_portfolio.png"
   },
   {
     "id": 2,
-    "title": "two",
-    "languages": ["HTML", "CSS", "JavaScript", "jQuery"],
-    "github": "ginjak",
-    "link": "https://facebook.com",
-    "description": "longer description of this project",
-    "image": "/images/barnsley.webp"
+    "title": "Notes - UI/UX replica",
+    "languages": ["HTML", "SASS"],
+    "github": "Notes",
+    "link": "https://heuristic-haibt-95a769.netlify.app/",
+    "image": "/images/notes.png"
   },
   {
     "id": 3,
