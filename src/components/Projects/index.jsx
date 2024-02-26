@@ -28,6 +28,7 @@ function Projects() {
   };
 
   if (selectedProject) {
+    // Render single project when clicked on "View Details" button
     return (
       <>
         <div className="project-details projects-wraper  d-flex justify-content-center align-items-center">
@@ -49,10 +50,25 @@ function Projects() {
                     </div>
                   ))}
                 </div>
-                <div className="text-white mb-5">
+                <div className="text-white ">
                   Short description: <p>{selectedProject.description}</p>
                 </div>
-
+                <div className="links mb-5">
+                  <a
+                    className="card-link"
+                    href={"https://github.com/Ginjak/" + selectedProject.github}
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-github"></i>
+                  </a>
+                  <a
+                    className="card-link"
+                    href={selectedProject.link}
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-globe"></i>
+                  </a>
+                </div>
                 <Link
                   to="/portfolio"
                   className="custom-btn"
@@ -67,7 +83,7 @@ function Projects() {
       </>
     );
   }
-
+  // Render all project on portfolio page
   return (
     <>
       <div className="projects-wraper">

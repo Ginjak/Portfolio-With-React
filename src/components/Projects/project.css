@@ -19,13 +19,15 @@
   background: rgba(0, 0, 0, 0.6);
 }
 
-.project a.card-link {
+.project a.card-link,
+.project-details a.card-link {
   color: #fff;
   font-size: 20px;
   transition: all 0.2s ease-in-out;
 }
 
-.project a.card-link:hover {
+.project a.card-link:hover,
+.project-details a.card-link:hover {
   transition: all 0.2s ease-in-out;
   color: #d7d7d7;
 }
