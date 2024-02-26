@@ -18,16 +18,24 @@
   {
     "id": 3,
     "title": "Weather Dashboard",
-    "languages": ["HTML", "CSS", "JavaScript", "Bootstrap", "API"],
+    "languages": ["HTML", "CSS", "JavaScript", "Bootstrap", "API", "jQuery"],
     "github": "Weather-Dashboard",
     "link": "https://ginjak.github.io/Weather-Dashboard/",
     "image": "/images/weather_dashboard.png"
   },
   {
     "id": 4,
-    "title": "two",
-    "languages": ["HTML", "CSS", "JavaScript", "jQuery"],
-    "github": "ginjak",
+    "title": "Quiz Challenge",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "github": "Quiz",
+    "link": "https://ginjak.github.io/Quiz/",
+    "image": "/images/quiz.png"
+  },
+  {
+    "id": 5,
+    "title": "Quiz Challenge",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "github": "Quiz",
     "link": "https://facebook.com",
     "description": "longer description of this project",
     "image": "/images/barnsley.webp"
