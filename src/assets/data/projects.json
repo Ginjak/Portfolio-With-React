@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "React Portfolio",
-    "languages": ["HTML", "CSS", "React"],
+    "languages": ["HTML", "CSS", "React", "Bootstrap"],
     "github": "Portfolio-With-React",
     "link": "https://stunning-lamington-69567c.netlify.app/",
     "image": "/images/react_portfolio.png"
